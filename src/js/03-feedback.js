@@ -1,3 +1,5 @@
+import throttle from 'lodash.throttle';
+
 const form = document.querySelector('form');
 const emailInput = form.querySelector('label > input');
 let textInput = form.querySelector('label > textarea');
