@@ -6,7 +6,7 @@ let textInput = form.querySelector('label > textarea');
 
 form.addEventListener(
   'input',
-  _.throttle(e => {
+  throttle(e => {
     let data = {
       email: emailInput.value,
       message: textInput.value,
